@@ -1,0 +1,49 @@
+body {
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+.nav-item {
+  display: inline-block;
+  background-color: red;
+}
+
+.bio {
+  border: 3px solid green;
+  text-align: center;
+}
+
+.bio h2 {
+  text-align: center;
+  margin: 0;
+  background-color: green;
+  padding: 20px;
+}
+
+.bio p {
+  text-align: left;
+}
+
+.spidey-pic {
+  margin-top: 50px;
+  width: 150px;
+  height: auto;
+}
+
+.container {
+  width: 600px;
+  background-color: tomato;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
