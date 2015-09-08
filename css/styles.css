@@ -1,26 +1,42 @@
 body {
   font-family: Helvetica, Arial, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+}
+
+p {
+  margin: 0 0 1rem;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
+
+main,
+section {
+  margin-bottom: 3rem;
 }
 
 .nav-item {
   display: inline-block;
-  background-color: red;
 }
 
 .bio {
-  border: 3px solid green;
+  border: 2px solid #eee;
+  border-radius: 4px;
   text-align: center;
 }
 
 .bio h2 {
   text-align: center;
   margin: 0;
-  background-color: green;
+  background-color: #eee;
   padding: 20px;
 }
 
-.bio p {
+.bio-content {
   text-align: left;
+  padding: 1rem;
 }
 
 .spidey-pic {
@@ -31,13 +47,13 @@ body {
 
 .container {
   width: 600px;
-  background-color: blue;
   margin-left: auto;
   margin-right: auto;
 }
 
-
-
+section h2 {
+  margin: 0 0 0.75rem;
+}
 
 
 
