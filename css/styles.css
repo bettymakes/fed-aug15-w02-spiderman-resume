@@ -1,7 +1,14 @@
+*, 
+*:after, 
+*:before {
+  border-sizing: border-box;
+}
+
 body {
   font-family: Helvetica, Arial, sans-serif;
   font-size: 100%;
   line-height: 1.5;
+  margin: 0;
 }
 
 p {
@@ -17,10 +24,6 @@ section {
   margin-bottom: 3rem;
 }
 
-.title {
-  text-align: center;
-}
-
 nav ul {
   padding: 0;
   overflow: auto;
@@ -28,16 +31,6 @@ nav ul {
 
 .nav-item {
   display: inline-block;
-  width: 25%;
-  border-left: 3px solid #eee;
-  float: left;
-  box-sizing: border-box;
-  text-align: center;
-}
-
-.nav-item:first-child {
-  border-left: 0;
-  padding: 0;
 }
 
 .bio {
@@ -72,6 +65,17 @@ nav ul {
 
 section h2 {
   margin: 0 0 0.75rem;
+}
+
+
+/* Create nav here */
+.nav-bar {
+  background-color: green;
+  height: 60px;
+}
+
+.title {
+  margin: 0;
 }
 
 
