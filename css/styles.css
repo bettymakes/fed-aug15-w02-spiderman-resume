@@ -1,7 +1,7 @@
 *, 
 *:after, 
 *:before {
-  border-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -19,9 +19,8 @@ p:last-child {
   margin-bottom: 0;
 }
 
-main,
 section {
-  margin-bottom: 3rem;
+  margin-bottom: 2rem;
 }
 
 nav ul {
@@ -52,9 +51,9 @@ nav ul {
 }
 
 .spidey-pic {
-  margin-top: 50px;
+/*  margin-top: 50px;
   width: 150px;
-  height: auto;
+  height: auto;*/
 }
 
 .container {
@@ -72,7 +71,7 @@ section h2 {
 .nav-bar {
   background-color: #333333;
   height: 60px;
-  margin-bottom: 30px;
+  /*margin-bottom: 30px;*/
   overflow: auto;
   color: white;
   padding: 0 30px;
@@ -96,6 +95,52 @@ section h2 {
 }
 
 
-/* Create layout (removed centered container) */
+/* Create layout (removed centered container & spidey pic) */
+html, body {
+  height: 100%;
+}
 
+.container {
+  height: 100%;
+  overflow: hidden;
+}
+
+aside {
+  float: left;
+  width: 35%;
+  background-color: #ccc;
+  height: 100%;
+  /*padding: 30px;*/
+}
+
+main {
+  float: left;
+  width: 65%;
+  padding: 30px;
+}
+
+.tagline {
+  margin: 0 0 3rem;
+  background-color: #22A7F0;
+  padding: 15px;
+}
+
+.spidey-pic {
+  width: 100%;
+  border-radius: 50%;
+  background-color: white;
+  border: 5px solid black;
+}
+
+.bio-content {
+  padding: 30px;
+}
+
+.img-container {
+  padding: 40px;
+  background-image: url(http://www.allthingsscene.co/wp-content/uploads/2015/07/trees-skyward.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: -155px;
+}
 
