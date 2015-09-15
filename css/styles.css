@@ -68,20 +68,32 @@ section h2 {
 }
 
 
-/* Create nav here */
+/* Create nav here (floats) */
 .nav-bar {
-  background-color: green;
+  background-color: #333333;
   height: 60px;
+  margin-bottom: 30px;
+  overflow: auto;
+  color: white;
+  padding: 0 30px;
 }
 
 .title {
   margin: 0;
+  line-height: 60px;
+  float: left;
 }
 
+.nav-list {
+  float: right;
+  margin: 0;
+  line-height: 60px;
+}
 
-
-
-
+.nav-item {
+  font-size: 12px;
+  text-transform: uppercase;
+}
 
 
 
