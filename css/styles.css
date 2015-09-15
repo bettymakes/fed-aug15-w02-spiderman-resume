@@ -58,9 +58,9 @@ nav ul {
 }
 
 .container {
-  width: 600px;
+/*  width: 600px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto;*/
 }
 
 section h2 {
@@ -96,5 +96,6 @@ section h2 {
 }
 
 
+/* Create layout (removed centered container) */
 
 
